@@ -8,9 +8,6 @@ spring:
           uri: ${SPRING_CLOUD_CONFIG_SERVER_GIT_URI:https://github.com/plats-spring-microservices/spring-configuration}
           search-paths: ${SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCH_PATHS:{application}}
           default-label: main
-logging:
-  level:
-    root: info
 server:
   port: ${SERVER_PORT:8888}
 
